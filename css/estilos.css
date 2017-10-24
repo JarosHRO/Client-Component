@@ -1,0 +1,36 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navegacion{
+	position: fixed;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+form{
+	text-align: center;
+}
+.baja{
+	padding: 50px;
+}
+
+.pie{
+	font-color:white;
+	background-color: black;
+	font-size: 14px;
+	padding: 0px;
+}
+
+.cp{
+	text-align: center;
+	color:white;
+}

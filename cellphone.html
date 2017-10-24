@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ventas</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<!--menu top -->
+	<nav class="navbar navbar-inverse navbar-static-top navegacion" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="collapse navbar-collapse" id="nav-top">
+					<a href="index.html" class="navbar-brand">VentasRD</a>
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="laptop.html">Laptop</a></li>
+						<li class="active"><a href="cellphone.html">Cellphones</a></li>
+						<li><a href="contact.html">Contact</a></li>
+				</div>
+			</div>			
+		</div>		
+	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="row">
+    <div id='ver1'>
+    <div class="col-md-3">
+      <div class="thumbnail">
+         <img src="img/cellphone/galaxy j7.jpg" alt="Lights">
+
+          <div class="caption">
+            <h3>Samsung Galaxy J7</h3>
+            <h4>Precio: 219</h4>
+            <div id='oculto1' style='display:none;'>
+            	<p>Form factor Touchscreen</p>
+              <p>Dimensions (mm) 152.40 x 78.60 x 7.50</p>
+              <p>Weight (g)  171.00</p>
+              <p>Battery capacity (mAh)  3000</p>
+              <p>Removable battery Yes</p>
+
+            </div>
+          </div>
+        </div>
+      <input class="btn btn-primary" type="button" value="Mostrar" onclick="mostrar1()">
+      <input class="btn btn-primary" type="button" value="Comprar" onclick="ocultar1()">
+    </div>
+</div>
+<div id='ver2'>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        
+          <img src="img/cellphone/galaxys8.jpeg" alt="Nature">
+          <div class="caption">
+            <h3>Samsung Galaxy S8</h3>
+            <h4>Precio: 943</h4>
+            <div id='oculto2' style='display:none;'>
+			       <p>Android 7.0 Nougat</p>
+			       <p>5.8-inch AMOLED 2960x1440 (570 ppi)</p>
+			       <p>microSD up to 256GB</p>
+			       <p>RAM	4GB</p>
+			       <p>12MP Dual Pixel, f/1.7</p>
+           </div>
+          </div>
+      
+      </div>
+      <input class="btn btn-primary" type="button" value="Mostrar" onclick="mostrar2()">
+      <input class="btn btn-primary" type="button" value="Comprar" onclick="ocultar2()">
+    </div>
+  </div>
+<div id='ver3'>
+    <div class="col-md-3">
+      <div class="thumbnail">
+       
+          <img src="img/cellphone/iphone8.jpg" alt="Fjords">
+          <div class="caption">
+            <h3>Iphone 8</h3>
+            <h4>Precio: 769</h4>
+
+       <div id='oculto3' style='display:none;'>
+          <p>4.7‑inch and 5.5‑inch </p>
+          <p>12MP camera</p>
+          <p>iPhone 8 Plus enable optical zoom</p>
+          <p>Charge with wireless</p>
+          <p>Dual domain pixels</p>
+       </div> 
+              
+          </div>
+       
+      </div>
+      <input class="btn btn-primary" type="button" value="Mostrar" onclick="mostrar3()">
+      <input class="btn btn-primary" type="button" value="Comprar" onclick="ocultar3()">
+    </div>
+  </div>
+<div id='ver4'>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        
+          <img src="img/cellphone/iphonex.jpeg" alt="Fjords">
+          <div class="caption">
+            <h3>Iphone X</h3>
+            <h4>Precio: 999</h4>
+            <div id='oculto4' style='display:none;'>
+              <p>Super Retina HD display</p>
+              <p>5.8-inch all-screen </p>
+              <p>HDR display</p>
+              <p>2436-by-1125-pixel resolution at 458 ppi</p>
+              <p>1,000,000:1 contrast ratio (typical)</p>
+            </div>
+          </div>
+        
+      </div>
+      <input class="btn btn-primary" type="button" value="Mostrar" onclick="mostrar4()">
+      <input class="btn btn-primary" type="button" value="Comprar" onclick="ocultar4()">
+    </div>
+  </div>  
+  </div>
+    <br>
+    <br>
+<script type="text/javascript">
+  function mostrar1(){
+  document.getElementById('oculto1').style.display = 'block';}
+</script>
+<script type="text/javascript">
+  function mostrar2(){
+  document.getElementById('oculto2').style.display = 'block';}
+</script>
+<script type="text/javascript">
+  function mostrar3(){
+  document.getElementById('oculto3').style.display = 'block';}
+</script>
+<script type="text/javascript">
+  function mostrar4(){
+  document.getElementById('oculto4').style.display = 'block';}
+</script>
+<script type="text/javascript">
+function ocultar1(){
+document.getElementById('ver1').style.display = 'none';}
+</script>
+<script type="text/javascript">
+function ocultar2(){
+document.getElementById('ver2').style.display = 'none';}
+</script>
+<script type="text/javascript">
+function ocultar3(){
+document.getElementById('ver3').style.display = 'none';}
+</script>
+<script type="text/javascript">
+function ocultar4(){
+document.getElementById('ver4').style.display = 'none';}
+</script>
+
+	<footer class="pie">
+		<p class="cp">Copyright © 2017 Jairo Ltda</p>
+	</footer>	
+</body>
+</html>
